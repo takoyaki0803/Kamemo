@@ -3,7 +3,7 @@
 //  160111UITests
 //
 //  Created by 20150301 on 2016/01/11.
-//  Copyright © 2016年 YasuhiroSugisawa. All rights reserved.
+//  Copyright © 2016年 ******. All rights reserved.
 //
 
 import XCTest
