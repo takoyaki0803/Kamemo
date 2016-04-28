@@ -3,7 +3,7 @@
 //  160111
 //
 //  Created by 20150301 on 2/11/16.
-//  Copyright © 2016 YasuhiroSugisawa. All rights reserved.
+//  Copyright © 2016 ******. All rights reserved.
 //
 
 import UIKit
@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     */
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
-        AdobeUXAuthManager.sharedManager().setAuthenticationParametersWithClientID("fe892490299c47ec94563d728e5b371e",withClientSecret: "96ebfdf8-99cd-4628-8fd0-194f9d1b9560")
+        AdobeUXAuthManager.sharedManager().setAuthenticationParametersWithClientID("***************",withClientSecret: "***************")
         // Override point for customization after application launch.
         
         return true
