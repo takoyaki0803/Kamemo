@@ -1,0 +1,3 @@
+   Name: CreativeSDKImage
+Version: 0.2.2127.3
+ Branch: origin/master-external/4cf98f9

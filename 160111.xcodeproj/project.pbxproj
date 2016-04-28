@@ -7,13 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AADEA7B81C435E1800016B34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADEA7B71C435E1800016B34 /* AppDelegate.swift */; };
-		AADEA7BA1C435E1800016B34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADEA7B91C435E1800016B34 /* ViewController.swift */; };
-		AADEA7BD1C435E1800016B34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADEA7BB1C435E1800016B34 /* Main.storyboard */; };
+		AA17D3481C447FFE00E355B5 /* noimage_omiyage_comment.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA17D3461C447FFE00E355B5 /* noimage_omiyage_comment.jpg */; };
+		AA17D3491C447FFE00E355B5 /* noimage_omiyage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA17D3471C447FFE00E355B5 /* noimage_omiyage.jpg */; };
+		AA17D34D1C4485BE00E355B5 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA17D34B1C4485BE00E355B5 /* CommentCell.swift */; };
+		AA17D3511C4485CD00E355B5 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA17D34F1C4485CD00E355B5 /* ListCell.swift */; };
+		AA17D3521C4485CD00E355B5 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA17D3501C4485CD00E355B5 /* ListCell.xib */; };
+		AA17D3561C44862D00E355B5 /* Omiyage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA17D3541C44862D00E355B5 /* Omiyage.swift */; };
+		AA17D3571C44862D00E355B5 /* OmiyageComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA17D3551C44862D00E355B5 /* OmiyageComment.swift */; };
+		AA17D3591C4486B700E355B5 /* AddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA17D3581C4486B700E355B5 /* AddController.swift */; };
+		AA17D35B1C4486E100E355B5 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA17D35A1C4486E100E355B5 /* DetailController.swift */; };
+		AA17D35D1C4486F100E355B5 /* CommentAddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA17D35C1C4486F100E355B5 /* CommentAddController.swift */; };
+		AA17D35F1C44879000E355B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA17D35E1C44879000E355B5 /* AppDelegate.swift */; };
+		AA17D3631C44889F00E355B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA17D3621C44889F00E355B5 /* Main.storyboard */; };
+		AA2615741CC88C500057C6FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2615731CC88C500057C6FA /* ViewController.swift */; };
+		AA4C9AF21C85273D00081DE1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4C9AF11C85273D00081DE1 /* AVFoundation.framework */; };
+		AA4C9AF31C852CEB00081DE1 /* AVFoundation.framework in Sources */ = {isa = PBXBuildFile; fileRef = AA4C9AF11C85273D00081DE1 /* AVFoundation.framework */; };
+		AA52C8BF1C57095900559BCB /* CommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA52C8BE1C57095900559BCB /* CommentCell.xib */; };
+		AA782FC41C707C2A00C19AFB /* AdobeCreativeSDKImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8990091C7068C600E8D561 /* AdobeCreativeSDKImage.framework */; };
+		AA782FC61C707C3600C19AFB /* AdobeCreativeSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8990021C70687400E8D561 /* AdobeCreativeSDKCore.framework */; };
+		AA782FC91C707D0100C19AFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA782FC81C707D0100C19AFB /* Foundation.framework */; };
+		AA782FCB1C707D5000C19AFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA782FCA1C707D5000C19AFB /* UIKit.framework */; };
+		AA782FCC1C707EF700C19AFB /* AdobeCreativeSDK-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = AA8690801C6C07A5001A634D /* AdobeCreativeSDK-Bridging-Header.h */; };
+		AA865AB41C98CF4900E55EFA /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA865AB31C98CF4900E55EFA /* Realm.framework */; };
+		AA865AB61C98CF5000E55EFA /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA865AB51C98CF5000E55EFA /* RealmSwift.framework */; };
+		AA865AB71C98D01900E55EFA /* RealmSwift.framework in Sources */ = {isa = PBXBuildFile; fileRef = AA865AB51C98CF5000E55EFA /* RealmSwift.framework */; };
+		AA865AB81C98D02300E55EFA /* Realm.framework in Sources */ = {isa = PBXBuildFile; fileRef = AA865AB31C98CF4900E55EFA /* Realm.framework */; };
+		AA8690691C6BFFAB001A634D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8690681C6BFFAB001A634D /* libz.tbd */; };
+		AA86906B1C6BFFC3001A634D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AA86906A1C6BFFC3001A634D /* libc++.tbd */; };
+		AA86906D1C6BFFD7001A634D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA86906C1C6BFFD7001A634D /* MobileCoreServices.framework */; };
+		AA86906F1C6BFFE9001A634D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA86906E1C6BFFE9001A634D /* SystemConfiguration.framework */; };
+		AA8690711C6C006D001A634D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8690701C6C006D001A634D /* Accelerate.framework */; };
+		AA8690731C6C0083001A634D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8690721C6C0083001A634D /* CoreData.framework */; };
+		AA8690751C6C0293001A634D /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8690741C6C0293001A634D /* libsqlite3.0.tbd */; };
+		AA8690771C6C02AD001A634D /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8690761C6C02AD001A634D /* libz.1.2.5.tbd */; };
+		AA8690791C6C0533001A634D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8690781C6C0533001A634D /* MessageUI.framework */; };
+		AA86907B1C6C0542001A634D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA86907A1C6C0542001A634D /* OpenGLES.framework */; };
+		AA86907D1C6C0555001A634D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA86907C1C6C0555001A634D /* QuartzCore.framework */; };
+		AA86907F1C6C055F001A634D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA86907E1C6C055F001A634D /* StoreKit.framework */; };
+		AA8690841C6C17F1001A634D /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8690831C6C17F1001A634D /* CameraViewController.swift */; };
+		AA8690861C6C1840001A634D /* EditPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8690851C6C1840001A634D /* EditPhotoViewController.swift */; };
+		AA8690881C6C18C1001A634D /* camera48.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8690871C6C18C1001A634D /* camera48.png */; };
+		AA86908A1C6C18E4001A634D /* feed48.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8690891C6C18E4001A634D /* feed48.png */; };
+		AA89281F1C51DD0A002745A8 /* DbDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA89281E1C51DD09002745A8 /* DbDefinition.swift */; };
+		AA8928211C523A24002745A8 /* SortDedinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8928201C523A24002745A8 /* SortDedinition.swift */; };
+		AA8E76B01C96786700E8DEA4 /* EditPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8690851C6C1840001A634D /* EditPhotoViewController.swift */; };
+		AAAE58141C477C28004776E2 /* ConvertNSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE58131C477C28004776E2 /* ConvertNSDate.swift */; };
 		AADEA7BF1C435E1800016B34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADEA7BE1C435E1800016B34 /* Assets.xcassets */; };
 		AADEA7C21C435E1800016B34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADEA7C01C435E1800016B34 /* LaunchScreen.storyboard */; };
 		AADEA7CD1C435E1900016B34 /* _60111Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADEA7CC1C435E1900016B34 /* _60111Tests.swift */; };
 		AADEA7D81C435E1900016B34 /* _60111UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADEA7D71C435E1900016B34 /* _60111UITests.swift */; };
+		AAFDDF611C715E590016F88E /* AdobeCreativeSDKImage.framework in Sources */ = {isa = PBXBuildFile; fileRef = AA8990091C7068C600E8D561 /* AdobeCreativeSDKImage.framework */; };
+		AAFDDF621C715E620016F88E /* AdobeCreativeSDKImageResources.bundle in Sources */ = {isa = PBXBuildFile; fileRef = AA8990071C7068AF00E8D561 /* AdobeCreativeSDKImageResources.bundle */; };
+		AAFDDF631C715E660016F88E /* AdobeCreativeSDKCore.framework in Sources */ = {isa = PBXBuildFile; fileRef = AA8990021C70687400E8D561 /* AdobeCreativeSDKCore.framework */; };
+		AAFDDF641C715E6C0016F88E /* AdobeCreativeSDKCoreResources.bundle in Sources */ = {isa = PBXBuildFile; fileRef = AA8990001C70684B00E8D561 /* AdobeCreativeSDKCoreResources.bundle */; };
+		AAFDDF651C715E8D0016F88E /* AdobeCreativeSDKImageResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA8990071C7068AF00E8D561 /* AdobeCreativeSDKImageResources.bundle */; };
+		AAFDDF661C715E930016F88E /* AdobeCreativeSDKCoreResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA8990001C70684B00E8D561 /* AdobeCreativeSDKCoreResources.bundle */; };
+		B19202E18BA8B01F76557699 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD574BCED18E2BD4BD35904 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +83,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F9A2A6B8E07772A238D4FA5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6FD574BCED18E2BD4BD35904 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BA2AB804465DFD300AC707 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AA17D3461C447FFE00E355B5 /* noimage_omiyage_comment.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noimage_omiyage_comment.jpg; sourceTree = "<group>"; };
+		AA17D3471C447FFE00E355B5 /* noimage_omiyage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noimage_omiyage.jpg; sourceTree = "<group>"; };
+		AA17D34B1C4485BE00E355B5 /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		AA17D34F1C4485CD00E355B5 /* ListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		AA17D3501C4485CD00E355B5 /* ListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
+		AA17D3541C44862D00E355B5 /* Omiyage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Omiyage.swift; sourceTree = "<group>"; };
+		AA17D3551C44862D00E355B5 /* OmiyageComment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OmiyageComment.swift; sourceTree = "<group>"; };
+		AA17D3581C4486B700E355B5 /* AddController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddController.swift; sourceTree = "<group>"; };
+		AA17D35A1C4486E100E355B5 /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		AA17D35C1C4486F100E355B5 /* CommentAddController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentAddController.swift; sourceTree = "<group>"; };
+		AA17D35E1C44879000E355B5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA17D3621C44889F00E355B5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AA2615731CC88C500057C6FA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA26F09E1C4731B60023BCA3 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA4C9AF11C85273D00081DE1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AA52C8BE1C57095900559BCB /* CommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentCell.xib; sourceTree = "<group>"; };
+		AA782FC81C707D0100C19AFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA782FCA1C707D5000C19AFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA865AB31C98CF4900E55EFA /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "Pods/../build/Release-iphoneos/Realm.framework"; sourceTree = "<group>"; };
+		AA865AB51C98CF5000E55EFA /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "Pods/../build/Release-iphoneos/RealmSwift.framework"; sourceTree = "<group>"; };
+		AA8690681C6BFFAB001A634D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		AA86906A1C6BFFC3001A634D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		AA86906C1C6BFFD7001A634D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		AA86906E1C6BFFE9001A634D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AA8690701C6C006D001A634D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		AA8690721C6C0083001A634D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AA8690741C6C0293001A634D /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		AA8690761C6C02AD001A634D /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		AA8690781C6C0533001A634D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		AA86907A1C6C0542001A634D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		AA86907C1C6C0555001A634D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AA86907E1C6C055F001A634D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		AA8690801C6C07A5001A634D /* AdobeCreativeSDK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdobeCreativeSDK-Bridging-Header.h"; sourceTree = "<group>"; };
+		AA8690831C6C17F1001A634D /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		AA8690851C6C1840001A634D /* EditPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPhotoViewController.swift; sourceTree = "<group>"; };
+		AA8690871C6C18C1001A634D /* camera48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera48.png; sourceTree = "<group>"; };
+		AA8690891C6C18E4001A634D /* feed48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feed48.png; sourceTree = "<group>"; };
+		AA89281E1C51DD09002745A8 /* DbDefinition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DbDefinition.swift; sourceTree = "<group>"; };
+		AA8928201C523A24002745A8 /* SortDedinition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortDedinition.swift; sourceTree = "<group>"; };
+		AA8990001C70684B00E8D561 /* AdobeCreativeSDKCoreResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AdobeCreativeSDKCoreResources.bundle; sourceTree = "<group>"; };
+		AA8990021C70687400E8D561 /* AdobeCreativeSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKCore.framework; sourceTree = "<group>"; };
+		AA8990071C7068AF00E8D561 /* AdobeCreativeSDKImageResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AdobeCreativeSDKImageResources.bundle; sourceTree = "<group>"; };
+		AA8990091C7068C600E8D561 /* AdobeCreativeSDKImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKImage.framework; sourceTree = "<group>"; };
+		AAAE58131C477C28004776E2 /* ConvertNSDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertNSDate.swift; sourceTree = "<group>"; };
 		AADEA7B41C435E1800016B34 /* 160111.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 160111.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AADEA7B71C435E1800016B34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AADEA7B91C435E1800016B34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AADEA7BC1C435E1800016B34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AADEA7BE1C435E1800016B34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AADEA7C11C435E1800016B34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AADEA7C31C435E1800016B34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +147,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA865AB61C98CF5000E55EFA /* RealmSwift.framework in Frameworks */,
+				AA865AB41C98CF4900E55EFA /* Realm.framework in Frameworks */,
+				AA4C9AF21C85273D00081DE1 /* AVFoundation.framework in Frameworks */,
+				AA782FCB1C707D5000C19AFB /* UIKit.framework in Frameworks */,
+				AA86907D1C6C0555001A634D /* QuartzCore.framework in Frameworks */,
+				AA86907B1C6C0542001A634D /* OpenGLES.framework in Frameworks */,
+				AA8690791C6C0533001A634D /* MessageUI.framework in Frameworks */,
+				AA782FC91C707D0100C19AFB /* Foundation.framework in Frameworks */,
+				AA86907F1C6C055F001A634D /* StoreKit.framework in Frameworks */,
+				AA8690771C6C02AD001A634D /* libz.1.2.5.tbd in Frameworks */,
+				AA8690751C6C0293001A634D /* libsqlite3.0.tbd in Frameworks */,
+				AA782FC41C707C2A00C19AFB /* AdobeCreativeSDKImage.framework in Frameworks */,
+				AA8690731C6C0083001A634D /* CoreData.framework in Frameworks */,
+				AA8690711C6C006D001A634D /* Accelerate.framework in Frameworks */,
+				AA86906F1C6BFFE9001A634D /* SystemConfiguration.framework in Frameworks */,
+				AA86906D1C6BFFD7001A634D /* MobileCoreServices.framework in Frameworks */,
+				AA86906B1C6BFFC3001A634D /* libc++.tbd in Frameworks */,
+				AA782FC61C707C3600C19AFB /* AdobeCreativeSDKCore.framework in Frameworks */,
+				AA8690691C6BFFAB001A634D /* libz.tbd in Frameworks */,
+				B19202E18BA8B01F76557699 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +187,118 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AC7A6D48CAB9E7AF1AAE993 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA865AB51C98CF5000E55EFA /* RealmSwift.framework */,
+				AA865AB31C98CF4900E55EFA /* Realm.framework */,
+				AA4C9AF11C85273D00081DE1 /* AVFoundation.framework */,
+				AA782FCA1C707D5000C19AFB /* UIKit.framework */,
+				AA782FC81C707D0100C19AFB /* Foundation.framework */,
+				AA86907E1C6C055F001A634D /* StoreKit.framework */,
+				AA86907C1C6C0555001A634D /* QuartzCore.framework */,
+				AA86907A1C6C0542001A634D /* OpenGLES.framework */,
+				AA8690781C6C0533001A634D /* MessageUI.framework */,
+				AA8690761C6C02AD001A634D /* libz.1.2.5.tbd */,
+				AA8690741C6C0293001A634D /* libsqlite3.0.tbd */,
+				AA8690721C6C0083001A634D /* CoreData.framework */,
+				AA8690701C6C006D001A634D /* Accelerate.framework */,
+				AA86906E1C6BFFE9001A634D /* SystemConfiguration.framework */,
+				AA86906C1C6BFFD7001A634D /* MobileCoreServices.framework */,
+				AA86906A1C6BFFC3001A634D /* libc++.tbd */,
+				AA8690681C6BFFAB001A634D /* libz.tbd */,
+				6FD574BCED18E2BD4BD35904 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A15354969D32E03400655007 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71BA2AB804465DFD300AC707 /* Pods.debug.xcconfig */,
+				4F9A2A6B8E07772A238D4FA5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA17D3441C447D9900E355B5 /* 16011 */ = {
+			isa = PBXGroup;
+			children = (
+				AA8990091C7068C600E8D561 /* AdobeCreativeSDKImage.framework */,
+				AA8990071C7068AF00E8D561 /* AdobeCreativeSDKImageResources.bundle */,
+				AA8990021C70687400E8D561 /* AdobeCreativeSDKCore.framework */,
+				AA8990001C70684B00E8D561 /* AdobeCreativeSDKCoreResources.bundle */,
+				AA8690891C6C18E4001A634D /* feed48.png */,
+				AA8690871C6C18C1001A634D /* camera48.png */,
+				AA8690801C6C07A5001A634D /* AdobeCreativeSDK-Bridging-Header.h */,
+				AAAE58121C477BC1004776E2 /* Constants */,
+				AA17D3451C447E9F00E355B5 /* Assets */,
+				AA17D34A1C44853B00E355B5 /* Cell */,
+				AA17D3531C44860200E355B5 /* Realm */,
+				AA17D35E1C44879000E355B5 /* AppDelegate.swift */,
+				AA2615731CC88C500057C6FA /* ViewController.swift */,
+				AA17D3581C4486B700E355B5 /* AddController.swift */,
+				AA17D35A1C4486E100E355B5 /* DetailController.swift */,
+				AA17D35C1C4486F100E355B5 /* CommentAddController.swift */,
+				AA8690831C6C17F1001A634D /* CameraViewController.swift */,
+				AA8690851C6C1840001A634D /* EditPhotoViewController.swift */,
+				AA17D3621C44889F00E355B5 /* Main.storyboard */,
+				AADEA7BE1C435E1800016B34 /* Assets.xcassets */,
+				AADEA7C01C435E1800016B34 /* LaunchScreen.storyboard */,
+				AADEA7C31C435E1800016B34 /* Info.plist */,
+			);
+			name = 16011;
+			sourceTree = "<group>";
+		};
+		AA17D3451C447E9F00E355B5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AA17D3461C447FFE00E355B5 /* noimage_omiyage_comment.jpg */,
+				AA17D3471C447FFE00E355B5 /* noimage_omiyage.jpg */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		AA17D34A1C44853B00E355B5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AA17D34F1C4485CD00E355B5 /* ListCell.swift */,
+				AA17D3501C4485CD00E355B5 /* ListCell.xib */,
+				AA17D34B1C4485BE00E355B5 /* CommentCell.swift */,
+				AA52C8BE1C57095900559BCB /* CommentCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		AA17D3531C44860200E355B5 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				AA17D3541C44862D00E355B5 /* Omiyage.swift */,
+				AA17D3551C44862D00E355B5 /* OmiyageComment.swift */,
+			);
+			name = Realm;
+			sourceTree = "<group>";
+		};
+		AAAE58121C477BC1004776E2 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				AA8928201C523A24002745A8 /* SortDedinition.swift */,
+				AA89281E1C51DD09002745A8 /* DbDefinition.swift */,
+				AAAE58131C477C28004776E2 /* ConvertNSDate.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
 		AADEA7AB1C435E1800016B34 = {
 			isa = PBXGroup;
 			children = (
+				AA26F09E1C4731B60023BCA3 /* Podfile */,
 				AADEA7B61C435E1800016B34 /* 160111 */,
 				AADEA7CB1C435E1900016B34 /* 160111Tests */,
 				AADEA7D61C435E1900016B34 /* 160111UITests */,
 				AADEA7B51C435E1800016B34 /* Products */,
+				A15354969D32E03400655007 /* Pods */,
+				3AC7A6D48CAB9E7AF1AAE993 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +315,7 @@
 		AADEA7B61C435E1800016B34 /* 160111 */ = {
 			isa = PBXGroup;
 			children = (
-				AADEA7B71C435E1800016B34 /* AppDelegate.swift */,
-				AADEA7B91C435E1800016B34 /* ViewController.swift */,
-				AADEA7BB1C435E1800016B34 /* Main.storyboard */,
-				AADEA7BE1C435E1800016B34 /* Assets.xcassets */,
-				AADEA7C01C435E1800016B34 /* LaunchScreen.storyboard */,
-				AADEA7C31C435E1800016B34 /* Info.plist */,
+				AA17D3441C447D9900E355B5 /* 16011 */,
 			);
 			path = 160111;
 			sourceTree = "<group>";
@@ -127,14 +340,29 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		AA898FE71C70202700E8D561 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA782FCC1C707EF700C19AFB /* AdobeCreativeSDK-Bridging-Header.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		AADEA7B31C435E1800016B34 /* 160111 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AADEA7DC1C435E1900016B34 /* Build configuration list for PBXNativeTarget "160111" */;
 			buildPhases = (
+				B97457EB7625CA9F09AE2400 /* Check Pods Manifest.lock */,
 				AADEA7B01C435E1800016B34 /* Sources */,
 				AADEA7B11C435E1800016B34 /* Frameworks */,
 				AADEA7B21C435E1800016B34 /* Resources */,
+				B845E343CC3F4E53C1D72703 /* Embed Pods Frameworks */,
+				A4E74647D6055726B9F3A2C5 /* Copy Pods Resources */,
+				AA898FE71C70202700E8D561 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -193,6 +421,7 @@
 				TargetAttributes = {
 					AADEA7B31C435E1800016B34 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Y2WWM6UF3W;
 					};
 					AADEA7C71C435E1900016B34 = {
 						CreatedOnToolsVersion = 7.2;
@@ -229,9 +458,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAFDDF661C715E930016F88E /* AdobeCreativeSDKCoreResources.bundle in Resources */,
+				AAFDDF651C715E8D0016F88E /* AdobeCreativeSDKImageResources.bundle in Resources */,
+				AA17D3631C44889F00E355B5 /* Main.storyboard in Resources */,
 				AADEA7C21C435E1800016B34 /* LaunchScreen.storyboard in Resources */,
 				AADEA7BF1C435E1800016B34 /* Assets.xcassets in Resources */,
-				AADEA7BD1C435E1800016B34 /* Main.storyboard in Resources */,
+				AA52C8BF1C57095900559BCB /* CommentCell.xib in Resources */,
+				AA17D3481C447FFE00E355B5 /* noimage_omiyage_comment.jpg in Resources */,
+				AA86908A1C6C18E4001A634D /* feed48.png in Resources */,
+				AA8690881C6C18C1001A634D /* camera48.png in Resources */,
+				AA17D3491C447FFE00E355B5 /* noimage_omiyage.jpg in Resources */,
+				AA17D3521C4485CD00E355B5 /* ListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +488,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A4E74647D6055726B9F3A2C5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B845E343CC3F4E53C1D72703 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B97457EB7625CA9F09AE2400 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AADEA7B01C435E1800016B34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AADEA7BA1C435E1800016B34 /* ViewController.swift in Sources */,
-				AADEA7B81C435E1800016B34 /* AppDelegate.swift in Sources */,
+				AA865AB81C98D02300E55EFA /* Realm.framework in Sources */,
+				AA865AB71C98D01900E55EFA /* RealmSwift.framework in Sources */,
+				AA4C9AF31C852CEB00081DE1 /* AVFoundation.framework in Sources */,
+				AAFDDF641C715E6C0016F88E /* AdobeCreativeSDKCoreResources.bundle in Sources */,
+				AAFDDF631C715E660016F88E /* AdobeCreativeSDKCore.framework in Sources */,
+				AAFDDF621C715E620016F88E /* AdobeCreativeSDKImageResources.bundle in Sources */,
+				AAFDDF611C715E590016F88E /* AdobeCreativeSDKImage.framework in Sources */,
+				AA17D35F1C44879000E355B5 /* AppDelegate.swift in Sources */,
+				AA8690861C6C1840001A634D /* EditPhotoViewController.swift in Sources */,
+				AA89281F1C51DD0A002745A8 /* DbDefinition.swift in Sources */,
+				AA8928211C523A24002745A8 /* SortDedinition.swift in Sources */,
+				AA17D35B1C4486E100E355B5 /* DetailController.swift in Sources */,
+				AAAE58141C477C28004776E2 /* ConvertNSDate.swift in Sources */,
+				AA17D35D1C4486F100E355B5 /* CommentAddController.swift in Sources */,
+				AA17D3561C44862D00E355B5 /* Omiyage.swift in Sources */,
+				AA17D3511C4485CD00E355B5 /* ListCell.swift in Sources */,
+				AA17D3571C44862D00E355B5 /* OmiyageComment.swift in Sources */,
+				AA17D3591C4486B700E355B5 /* AddController.swift in Sources */,
+				AA2615741CC88C500057C6FA /* ViewController.swift in Sources */,
+				AA8690841C6C17F1001A634D /* CameraViewController.swift in Sources */,
+				AA17D34D1C4485BE00E355B5 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +570,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AADEA7CD1C435E1900016B34 /* _60111Tests.swift in Sources */,
+				AA8E76B01C96786700E8DEA4 /* EditPhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +598,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AADEA7BB1C435E1800016B34 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AADEA7BC1C435E1800016B34 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AADEA7C01C435E1800016B34 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -329,6 +626,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -351,6 +649,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = 160111Kamemo;
+				"PROVISIONING_PROFILE[sdk=*]" = 160111Kamemo;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -373,7 +673,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yasuhiro Sugisawa (Y2WWM6UF3W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yasuhiro Sugisawa (Y2WWM6UF3W)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -388,6 +689,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = 160111Kamemo;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -395,53 +697,120 @@
 		};
 		AADEA7DD1C435E1900016B34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71BA2AB804465DFD300AC707 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/160111/",
+					"$(PROJECT_DIR)/build/Release-iphoneos",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/160111/",
+				);
 				INFOPLIST_FILE = 160111/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "YasuhiroSugisawa.-60111";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"Realm\"",
+					"-framework",
+					"\"RealmSwift\"",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasuhirosugisawa.160111Kamemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/AdobeCreativeSDK-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		AADEA7DE1C435E1900016B34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F9A2A6B8E07772A238D4FA5 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/160111/",
+					"$(PROJECT_DIR)/build/Release-iphoneos",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/160111/",
+				);
 				INFOPLIST_FILE = 160111/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "YasuhiroSugisawa.-60111";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"Realm\"",
+					"-framework",
+					"\"RealmSwift\"",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasuhirosugisawa.160111Kamemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/AdobeCreativeSDK-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		AADEA7E01C435E1900016B34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71BA2AB804465DFD300AC707 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/160111",
+				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = 160111Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "YasuhiroSugisawa.-60111Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/AdobeCreativeSDK-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/160111.app/160111";
 			};
 			name = Debug;
 		};
 		AADEA7E11C435E1900016B34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F9A2A6B8E07772A238D4FA5 /* Pods.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/160111",
+				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = 160111Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "YasuhiroSugisawa.-60111Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/AdobeCreativeSDK-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/160111.app/160111";
 			};
 			name = Release;
 		};
 		AADEA7E31C435E1900016B34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71BA2AB804465DFD300AC707 /* Pods.debug.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/160111",
+				);
 				INFOPLIST_FILE = 160111UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "YasuhiroSugisawa.-60111UITests";
@@ -453,7 +822,12 @@
 		};
 		AADEA7E41C435E1900016B34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F9A2A6B8E07772A238D4FA5 /* Pods.release.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/160111",
+				);
 				INFOPLIST_FILE = 160111UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "YasuhiroSugisawa.-60111UITests";
@@ -482,6 +856,7 @@
 				AADEA7DE1C435E1900016B34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AADEA7DF1C435E1900016B34 /* Build configuration list for PBXNativeTarget "160111Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +865,7 @@
 				AADEA7E11C435E1900016B34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AADEA7E21C435E1900016B34 /* Build configuration list for PBXNativeTarget "160111UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +874,7 @@
 				AADEA7E41C435E1900016B34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
